@@ -39,7 +39,8 @@ nav{
     justify-content: flex-end;
     align-items: center;
     border:solid white;
-    font-family: 'Bebas Neue';font-size: 3vh;
+    font-family: 'Bebas Neue';
+    font-size: 3vh;
     padding:1% 5%;
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
 }
@@ -50,4 +51,22 @@ nav{
 
 #port{
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
+}
+
+#intro{
+    font-family: 'Bebas Neue';
+    color:white;
+    font-size: 150%;
+    text-shadow: 4px 3px 8px black;
+    display:flex;
+    justify-content: center;
+}
+
+#dallas{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    width:60%;
+    margin-left:20%
 }
