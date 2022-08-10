@@ -53,13 +53,14 @@ nav{
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
 }
 
-#intro{
+p{
     font-family: 'Bebas Neue';
     color:white;
     font-size: 150%;
     text-shadow: 4px 3px 8px black;
     display:flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
 #dallas{
