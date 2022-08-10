@@ -5,19 +5,49 @@ body{
 nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #bar{
     display: flex;
     flex-direction: row;
-    padding-right: 12%
+    padding-right: 12%;
+    margin-right:3%;
 }
 
-.redirect{
-    margin-right: 50%;
-}
 
 #heading{
+    color:rgb(241, 241, 241);
+    font-style:italic;
+    font-weight:900;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration:underline;
+    font-family: 'Bebas Neue';
+    font-size: 200%;
+    border:solid;
+    text-shadow: 4px 3px 8px black;
     margin-left:3%;
+    padding:5% 5%;
+    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+}
+
+#home{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    border:solid white;
+    font-family: 'Bebas Neue';font-size: 3vh;
+    padding:1% 5%;
+    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+}
+
+#exp{
+    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+}
+
+#port{
+    box-shadow: 5px 5px 8px rgb(74, 91, 185);
 }
