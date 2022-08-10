@@ -1,0 +1,23 @@
+body{
+    width:100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bar{
+    display: flex;
+    flex-direction: row;
+    padding-right: 12%
+}
+
+.redirect{
+    margin-right: 50%;
+}
+
+#heading{
+    margin-left:3%;
+}
