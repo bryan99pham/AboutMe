@@ -31,6 +31,7 @@ nav{
     margin-left:3%;
     padding:1% 5%;
     box-shadow: 0px 5px 8px blue;
+    margin-top:4%;
 }
 
 #home{
@@ -48,6 +49,11 @@ nav{
     
 }
 
+#home:hover{
+    background-color: blue;
+    box-shadow:none;
+}
+
 #exp{
     box-shadow: 0px 5px 8px blue;
     text-decoration: none;
@@ -55,11 +61,21 @@ nav{
     font-size: 8vh;
 }
 
+#exp:hover{
+    background-color: blue;
+    box-shadow:none;
+}
+
 #port{
     box-shadow: 0px 5px 8px blue;
     text-decoration: none;
     text-shadow: 2px 2px 4px black;
     font-size: 8vh;
+}
+
+#port:hover{
+    background-color: blue;
+    box-shadow:none;
 }
 
 p{
