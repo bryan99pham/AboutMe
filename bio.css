@@ -40,7 +40,7 @@ nav{
     align-items: center;
     border:solid white;
     font-family: 'Bebas Neue';
-    font-size: 3vh;
+    font-size: 8vh;
     padding:1% 5%;
     box-shadow: 0px 5px 8px blue;
     text-decoration: none;
@@ -52,12 +52,14 @@ nav{
     box-shadow: 0px 5px 8px blue;
     text-decoration: none;
     text-shadow: 2px 2px 4px black;
+    font-size: 8vh;
 }
 
 #port{
     box-shadow: 0px 5px 8px blue;
     text-decoration: none;
     text-shadow: 2px 2px 4px black;
+    font-size: 8vh;
 }
 
 p{
@@ -176,5 +178,24 @@ p{
 
     #intro{
         font-size: 65%;
+    }
+
+    #home{
+        font-size: 5vh;
+        margin-bottom:0%;
+    }
+
+    #exp{
+        font-size: 5vh;
+        margin-top:10%;
+    }
+
+    #port{
+        font-size: 5vh;
+        margin-top:8%;
+    }
+
+    #popic{
+        width:80%;
     }
 }
