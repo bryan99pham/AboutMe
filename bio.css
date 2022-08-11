@@ -51,7 +51,7 @@ nav{
 
 #home:hover{
     background-color: blue;
-    box-shadow:none;
+    box-shadow:-8px 8px 3px black;
 }
 
 #exp{
@@ -63,7 +63,7 @@ nav{
 
 #exp:hover{
     background-color: blue;
-    box-shadow:none;
+    box-shadow:0px 8px 3px black;
 }
 
 #port{
@@ -75,7 +75,7 @@ nav{
 
 #port:hover{
     background-color: blue;
-    box-shadow:none;
+    box-shadow:8px 8px 3px black;
 }
 
 p{
@@ -213,5 +213,17 @@ p{
 
     #popic{
         width:80%;
+    }
+
+    #home:hover{
+        box-shadow:8px 8px 3px black;
+    }
+
+    #exp:hover{
+        box-shadow:8px 8px 3px black;
+    }
+
+    #port:hover{
+        box-shadow:8px 8px 3px black;
     }
 }
