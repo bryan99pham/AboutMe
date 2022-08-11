@@ -27,7 +27,7 @@ nav{
     font-family: 'Bebas Neue';
     font-size: 200%;
     border:solid;
-    text-shadow: 4px 3px 8px black;
+    text-shadow: 4px 3px 3px black;
     margin-left:3%;
     padding:5% 5%;
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
@@ -43,24 +43,30 @@ nav{
     font-size: 3vh;
     padding:1% 5%;
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    text-decoration: none;
+    text-shadow: 1px 1px 4px black;
+    
 }
 
 #exp{
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    text-shadow: 2px 2px 4px black;
 }
 
 #port{
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    text-shadow: 2px 2px 4px black;
 }
 
 p{
     font-family: 'Bebas Neue';
     color:white;
-    font-size: 150%;
-    text-shadow: 4px 3px 8px black;
+    font-size: 200%;
+    text-shadow: 4px 3px 5px black;
     display:flex;
     justify-content: center;
-    text-decoration: underline;
+    text-decoration:double underline white;
+    margin-bottom: 5%;
 }
 
 #dallas{
@@ -69,14 +75,23 @@ p{
     align-self: center;
     justify-content: center;
     width:60%;
-    margin-left:20%
+    margin-left:20%;
+    border:solid white;
+    box-shadow: 10px 10px 20px white;
 }
 
 #hobbies{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .hobby{
-    border:solid black;
+    border:solid white;
+    margin-bottom:3%;
 }
+
+#hob{
+    margin-top:15%;
+}
+
+/* need to make pics bigger */

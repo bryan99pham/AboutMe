@@ -1,6 +1,7 @@
 html{
     /*background-color: rgb(170, 63, 63);*/
-    background-image: linear-gradient(rgb(179, 48, 48),rgb(206, 138, 61));
+    background-image: linear-gradient(rgb(10, 10, 10),rgba(29, 23, 23, 0.808));
+    /* background-image: linear-gradient(rgb(179, 48, 48),rgb(206, 138, 61)); */
     /* background-repeat:no-repeat; */
     background-size: cover;
 }
@@ -21,8 +22,9 @@ header{
     font-size: 3vh;
     border:solid;
     text-shadow: 4px 3px 8px black;
-    box-shadow: 10px 10px 20px black;
-    margin-top:1%
+    box-shadow: 10px 10px 20px white;
+    margin-top:1%;
+    background-color: red;
 }
 
 a{
@@ -40,8 +42,9 @@ nav{
     border:solid white;
     font-family: 'Bebas Neue';font-size: 3vh;
     text-shadow: 3px 2px 5px black;
-    box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 15px white;
     width: 85%;
+    background-color: red;
 }
 
 body{
@@ -57,7 +60,7 @@ body{
     border:solid white;
     font-family: 'Bebas Neue';font-size: 3vh;
     padding:1% 5%;
-    box-shadow: 0px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px black;
 }
 
 #exp{
@@ -68,7 +71,7 @@ body{
     border:solid white;
     font-family: 'Bebas Neue';font-size: 3vh;
     padding:1% 5%;
-    box-shadow: 0px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px black;
 }
 
 #port{
@@ -79,5 +82,32 @@ body{
     border:solid white;
     font-family: 'Bebas Neue';font-size: 3vh;
     padding:1% 5.3%;
-    box-shadow: 0px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px black;
+}
+
+.socials{
+    display:flex;
+    justify-content: center;
+
+}
+
+#twitter{
+    color:rgb(75, 155, 182);
+    text-decoration:none;
+    margin: 10%;
+    box-shadow: 1px 2px 7px black;
+}
+
+#insta{
+    color:rgb(212, 54, 165);
+    text-decoration:none;
+    margin: 10%;
+    box-shadow: 4px 5px 8px black;
+}
+
+#linkedin{
+    color:rgb(60, 125, 146);
+    text-decoration:none;
+    margin: 10%;
+    box-shadow: 1px 2px 8px black;
 }
