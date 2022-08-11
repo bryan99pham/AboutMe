@@ -6,6 +6,7 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    box-shadow: 5px 5px 5px white;
 }
 
 #bar{
@@ -25,11 +26,11 @@ nav{
     align-items:center;
     text-decoration:underline;
     font-family: 'Bebas Neue';
-    font-size: 200%;
+    font-size: 400%;
     border:solid;
     text-shadow: 4px 3px 3px black;
     margin-left:3%;
-    padding:5% 5%;
+    padding:1% 5%;
     box-shadow: 5px 5px 8px rgb(74, 91, 185);
 }
 
@@ -77,7 +78,7 @@ p{
     width:79%;
     margin-left:8%;
     border:solid white;
-    box-shadow: 10px 10px 20px white;
+    box-shadow: 5px 5px 5px white;
 }
 
 #dallas{
@@ -88,7 +89,8 @@ p{
     width:60%;
     margin-left:20%;
     border:solid white;
-    box-shadow: 10px 10px 20px white;
+    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    margin-bottom:2%;
 }
 
 #hobbies{
@@ -102,12 +104,31 @@ p{
     height:400px;
     width:auto;
     border:solid white;
-    box-shadow: 0px 0px 20px red;
+    box-shadow: 0px 0px 20px blue;
 }
 
 #hob{
-    margin-top:15%;
+    margin-top:3%;
+    margin-bottom:3%;
 }
+
+#firstPara{
+    margin-top:3%;
+    margin-bottom:3%;
+}
+
+#hobbysection{
+    flex-direction:column;
+    background-image: linear-gradient(red, orange);
+    padding:1%;
+    margin-bottom:7%;
+    width:79%;
+    margin-left:8%;
+    border:solid white;
+    box-shadow: 5px 5px 5px white;
+    margin-top:7%;
+}
+
 
 @media screen and (max-width:1850px){
     #heading{
