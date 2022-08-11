@@ -12,7 +12,6 @@ html{
 
 header{
     color:rgb(241, 241, 241);
-    font-style:italic;
     font-weight:900;
     display: flex;
     justify-content: center;
@@ -111,4 +110,14 @@ body{
     text-decoration:none;
     margin: 10%;
     box-shadow: 1px 2px 8px black;
+}
+
+@media screen and (max-width:942px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left:8%;
+        padding-right:4%;
+    }
 }

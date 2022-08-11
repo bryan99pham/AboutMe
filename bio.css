@@ -19,7 +19,6 @@ nav{
 
 #heading{
     color:rgb(241, 241, 241);
-    font-style:italic;
     font-weight:900;
     display: flex;
     justify-content: center;
@@ -31,7 +30,7 @@ nav{
     text-shadow: 4px 3px 3px black;
     margin-left:3%;
     padding:1% 5%;
-    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px blue;
 }
 
 #home{
@@ -43,19 +42,21 @@ nav{
     font-family: 'Bebas Neue';
     font-size: 3vh;
     padding:1% 5%;
-    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px blue;
     text-decoration: none;
-    text-shadow: 1px 1px 4px black;
+    text-shadow: 2px 2px 4px black;
     
 }
 
 #exp{
-    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px blue;
+    text-decoration: none;
     text-shadow: 2px 2px 4px black;
 }
 
 #port{
-    box-shadow: 5px 5px 8px rgb(74, 91, 185);
+    box-shadow: 0px 5px 8px blue;
+    text-decoration: none;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -104,7 +105,7 @@ p{
     height:400px;
     width:auto;
     border:solid white;
-    box-shadow: 0px 0px 20px blue;
+    box-shadow: 0px 0px 25px blue;
 }
 
 #hob{
