@@ -40,7 +40,8 @@ nav{
     justify-content: center;
     align-items: center;
     border:solid white;
-    font-family: 'Bebas Neue';font-size: 3vh;
+    font-family: 'Bebas Neue';
+    font-size: 3vh;
     text-shadow: 3px 2px 5px black;
     box-shadow: 10px 10px 15px white;
     width: 85%;

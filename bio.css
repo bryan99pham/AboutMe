@@ -69,13 +69,17 @@ p{
     margin-bottom: 5%;
 }
 
+#intro{
+    flex-direction:column;
+}
+
 #dallas{
     display: flex;
     flex-direction: row;
     align-self: center;
     justify-content: center;
     width:60%;
-    margin-left:20%;
+    margin-left:19%;
     border:solid white;
     box-shadow: 10px 10px 20px white;
 }
@@ -88,10 +92,37 @@ p{
 .hobby{
     border:solid white;
     margin-bottom:3%;
+    height:400px;
+    width:auto;
 }
 
 #hob{
     margin-top:15%;
 }
 
-/* need to make pics bigger */
+@media screen and (max-width:1850px){
+    #heading{
+        flex-direction: column;
+        margin-left:0px;
+        margin-bottom:0px;
+    } 
+
+    nav{
+        flex-direction: column;
+    }
+
+    #bar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 14%;
+        margin-bottom:3%
+    }
+
+    #hobbies{
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+}
