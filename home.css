@@ -21,7 +21,7 @@ header{
     font-size: 204%;
     border:solid;
     text-shadow: 3px 3px 1px black;
-    box-shadow: 5px 5px 20px white;
+    box-shadow: 3px 5px 5px white;
     margin-top:1%;
     background-color: red;
 }
@@ -32,7 +32,7 @@ a{
 
 nav{
     margin: 7%;
-    margin-top:5%;    
+    margin-top:3%;    
     display: flex;
     flex-direction:column;
     text-align: center;
@@ -42,10 +42,10 @@ nav{
     font-family: 'Bebas Neue';
     font-size: 3vh;
     text-shadow: 3px 3px 5px black;
-    box-shadow: 5px 5px 15px white;
+    box-shadow: 3px 5px 5px white;
     width: 85%;
     background-color: red;
-    margin-bottom:0px;
+    margin-bottom: 3%;
 }
 
 body{
@@ -121,6 +121,17 @@ body{
     font-family: 'Bebas Neue';
     font-size: 204%;
     text-shadow: 3px 3px 1px black;
+    margin-top:0%;
+}
+
+#pic{
+    display:flex;
+    justify-content:center;
+    margin-bottom:3%;
+}
+
+img{
+    margin-bottom:3%;
 }
 
 @media screen and (max-width:942px){
@@ -128,14 +139,24 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-left:8%;
+        padding-left:5%;
         padding-right:4%;
         font-size: 100%;
     }
     
     #quote{
-        margin-top:10%;
+        margin-top:1%;
         font-size: 150%;
         margin-left:10%
     }
+
+    #pic{
+        width:80%;
+        margin-left:11%;
+    }
+
+    img{
+        width:80%;
+    }
+    
 }
