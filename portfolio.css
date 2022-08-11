@@ -1,0 +1,138 @@
+body{
+    width:100%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px white;
+}
+
+#bar{
+    display: flex;
+    flex-direction: row;
+    padding-right: 12%;
+    margin-right:3%;
+}
+
+
+#heading{
+    color:rgb(241, 241, 241);
+    font-weight:900;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration:underline;
+    font-family: 'Bebas Neue';
+    font-size: 400%;
+    border:solid;
+    text-shadow: 4px 3px 3px black;
+    margin-left:3%;
+    padding:1% 5%;
+    box-shadow: 0px 5px 8px blue;
+    margin-top:4%;
+}
+
+#home{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    border:solid white;
+    font-family: 'Bebas Neue';
+    font-size: 8vh;
+    padding:1% 5%;
+    box-shadow: 0px 5px 8px blue;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+#home:hover{
+    background-color: blue;
+    box-shadow:-8px 8px 3px black;
+}
+
+#bio{
+    box-shadow: 0px 5px 8px blue;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+    font-size: 8vh;
+}
+
+#bio:hover{
+    background-color: blue;
+    box-shadow:0px 8px 3px black;
+}
+
+#port{
+    box-shadow: 0px 5px 8px blue;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px black;
+    font-size: 8vh;
+}
+
+#port:hover{
+    background-color: blue;
+    box-shadow:8px 8px 3px black;
+}
+
+p{
+    font-family: 'Bebas Neue';
+    color:white;
+    font-size: 200%;
+    text-shadow: 4px 3px 5px black;
+    display:flex;
+    justify-content: center;
+    text-decoration:double underline white;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:1850px){
+    #heading{
+        flex-direction: column;
+        margin-left:0px;
+        margin-bottom:0px;
+    } 
+
+    nav{
+        flex-direction: column;
+    }
+
+    #bar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 14%;
+        margin-bottom:3%
+    }
+
+    #home{
+        font-size: 5vh;
+        margin-bottom:0%;
+    }
+
+    #bio{
+        font-size: 5vh;
+        margin-top:10%;
+    }
+
+    #port{
+        font-size: 5vh;
+        margin-top:8%;
+    }
+
+    #home:hover{
+        box-shadow:8px 8px 3px black;
+    }
+
+    #bio:hover{
+        box-shadow:8px 8px 3px black;
+    }
+
+    #port:hover{
+        box-shadow:8px 8px 3px black;
+    }
+
+}
