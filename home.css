@@ -150,7 +150,6 @@ img{
     margin-bottom:3%;
     border:3px solid red;
     margin-top:3%;
-    box-shadow: 3px 3px 20px blue;
 }
 
 input[type=text], select, textarea {
@@ -185,7 +184,6 @@ input[type=text], select, textarea {
     border:solid red;
     font-family: 'Bebas Neue';
     margin-bottom: 3%;
-    box-shadow: 3px 3px 20px blue;
   }
 
   #contact{
