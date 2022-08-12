@@ -89,6 +89,30 @@ p{
     margin-bottom: 5%;
 }
 
+#school{
+    flex-direction:column;
+    background-image: linear-gradient(red, orange);
+    padding:1%;
+    margin-bottom:7%;
+    width:79%;
+    margin-left:9%;
+    border:solid white;
+    box-shadow: 5px 5px 5px white;
+    margin-top:7%;
+}
+
+#uta{
+    margin-left:9%;
+    margin-bottom:1%
+}
+
+#magna{
+    font-size: 150%;
+    text-decoration: none;
+    margin-top:1%;
+    margin-bottom:2%;
+}
+
 @media screen and (max-width:1850px){
     #heading{
         flex-direction: column;
