@@ -149,6 +149,40 @@ img{
     margin-bottom:3%;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(255, 0, 0); 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Bebas Neue';
+  }
+  
+
+  input[type=submit] {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-family: 'Bebas Neue';
+  }
+  
+  input[type=submit]:hover {
+    background-color: #0400ff;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border:solid red;
+    font-family: 'Bebas Neue';
+    margin-bottom: 3%;
+  }
+
 @media screen and (max-width:942px){
     header{
         flex-direction: column;
@@ -172,6 +206,10 @@ img{
 
     img{
         width:80%;
+    }
+
+    #hob{
+        margin-left:3%;
     }
     
 }
