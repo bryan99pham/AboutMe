@@ -103,14 +103,16 @@ p{
 
 #uta{
     margin-left:9%;
-    margin-bottom:1%
+    margin-bottom:1%;
+    border:solid white;
+    box-shadow: -5px -5px 8px blue;
 }
 
 #magna{
     font-size: 150%;
     text-decoration: none;
     margin-top:1%;
-    margin-bottom:2%;
+    margin-bottom:1%;
 }
 
 @media screen and (max-width:1850px){
