@@ -50,7 +50,7 @@ nav{
 }
 
 #home:hover{
-    background-color: blue;
+    background-image: radial-gradient(blue , black);
     box-shadow:-8px 8px 3px black;
 }
 
@@ -62,7 +62,7 @@ nav{
 }
 
 #bio:hover{
-    background-color: blue;
+    background-image: radial-gradient(blue , black);
     box-shadow:0px 8px 3px black;
 }
 
@@ -74,8 +74,8 @@ nav{
 }
 
 #port:hover{
-    background-color: blue;
-    box-shadow:8px 8px 3px black;
+    background-image: radial-gradient(blue , black);
+        box-shadow:8px 8px 3px black;
 }
 
 p{
@@ -132,22 +132,7 @@ table{
     display:flex;
     justify-content: center;
     margin-bottom: 2%;
-    border:solid; 
     padding:3%;
-}
-
-.section{
-    flex-direction:column;
-    background-image: linear-gradient(red, orange);
-    padding:1%;
-    margin-bottom:7%;
-    width:79%;
-    margin-left:9%;
-    border:solid white;
-    box-shadow: 5px 5px 5px white;
-    margin-top:7%;
-    justify-content: center;
-    align-items:center;
 }
 
 #work{
@@ -210,14 +195,17 @@ table{
     }
 
     #home:hover{
+        background-image: radial-gradient(blue , black);
         box-shadow:8px 8px 3px black;
     }
 
     #bio:hover{
+        background-image: radial-gradient(blue , black);
         box-shadow:8px 8px 3px black;
     }
 
     #port:hover{
+        background-image: radial-gradient(blue , black);
         box-shadow:8px 8px 3px black;
     }
 

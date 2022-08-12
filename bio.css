@@ -50,7 +50,7 @@ nav{
 }
 
 #home:hover{
-    background-color: blue;
+    background-image: radial-gradient(blue , black);
     box-shadow:-8px 8px 3px black;
 }
 
@@ -91,7 +91,7 @@ p{
 
 #intro{
     flex-direction:column;
-    background-image: linear-gradient(red, orange);
+    background-color: rgb(139, 70, 70);
     padding:2%;
     margin-top:7%;
     width:79%;
@@ -138,7 +138,7 @@ p{
 
 #hobbysection{
     flex-direction:column;
-    background-image: linear-gradient(red, orange);
+    background-color: rgb(139, 70, 70);
     padding:1%;
     margin-bottom:7%;
     width:79%;

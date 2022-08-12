@@ -1,6 +1,6 @@
 html{
     /*background-color: rgb(170, 63, 63);*/
-    background-image: linear-gradient(rgb(10, 10, 10),rgba(29, 23, 23, 0.808));
+    background-image: radial-gradient(rgb(49, 50, 53),rgba(0, 0, 0, 0.808));
     /* background-image: linear-gradient(rgb(179, 48, 48),rgb(206, 138, 61)); */
     /* background-repeat:no-repeat; */
     background-size: cover;
@@ -8,6 +8,11 @@ html{
 
 #heading{
     color:white;
+    border:solid white;
+    padding:3%;
+    padding-left:7%;
+    padding-right:7%;
+    box-shadow: 0px 5px 8px black;
 }
 
 header{
@@ -23,7 +28,7 @@ header{
     text-shadow: 3px 3px 1px black;
     box-shadow: 3px 5px 5px white;
     margin-top:1%;
-    background-color: red;
+    background-color: rgb(139, 70, 70);
 }
 
 a{
@@ -44,7 +49,7 @@ nav{
     text-shadow: 3px 3px 5px black;
     box-shadow: 3px 5px 5px white;
     width: 85%;
-    background-color: red;
+    background-color: rgb(139, 70, 70);
     margin-bottom: 3%;
 }
 
@@ -65,7 +70,7 @@ body{
 }
 
 #bio:hover{
-    background-color: blue;
+    background-image: radial-gradient(blue , black);
     box-shadow:8px 8px 3px black;
 }
 
@@ -81,7 +86,7 @@ body{
 }
 
 #exp:hover{
-    background-color: blue;
+    background-image: radial-gradient(blue , black);
     box-shadow:8px 8px 3px black;
 }
 
@@ -97,7 +102,7 @@ body{
 }
 
 #port:hover{
-    background-color: blue;
+    background-image: radial-gradient(blue , black);
     box-shadow:8px 8px 3px black;
 }
 
@@ -148,14 +153,14 @@ body{
 
 img{
     margin-bottom:3%;
-    border:3px solid red;
+    border:3px solid rgb(139, 70, 70);
     margin-top:3%;
 }
 
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid rgb(255, 0, 0); 
+    border: 1px solid rgb(139, 70, 70); 
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
@@ -195,6 +200,20 @@ input[type=text], select, textarea {
     font-size:200%;
     text-decoration:underline;
   }
+
+.section{
+    flex-direction:column;
+    background-color: rgb(139, 70, 70);
+    padding:1%;
+    margin-bottom:7%;
+    width:79%;
+    margin-left:9%;
+    border:solid white;
+    box-shadow: 5px 5px 5px white;
+    margin-top:7%;
+    justify-content: center;
+    align-items:center;
+}  
 
 @media screen and (max-width:942px){
     header{
