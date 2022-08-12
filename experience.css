@@ -90,10 +90,11 @@ p{
 }
 
 #uta{
-    margin-left:12%;
+    margin-left:8%;
     margin-bottom:1%;
     border:solid white;
     box-shadow: -5px 5px 10px blue;
+    width:85%;
 }
 
 #magna{
@@ -178,6 +179,7 @@ table{
         flex-direction: column;
         margin-left:0px;
         margin-bottom:0px;
+        padding:2%;
     } 
 
     nav{
