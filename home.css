@@ -143,10 +143,13 @@ body{
     display:flex;
     justify-content:center;
     margin-bottom:3%;
+    margin-top:3%;
 }
 
 img{
     margin-bottom:3%;
+    border:3px solid red;
+    margin-top:3%;
 }
 
 input[type=text], select, textarea {
@@ -181,6 +184,16 @@ input[type=text], select, textarea {
     border:solid red;
     font-family: 'Bebas Neue';
     margin-bottom: 3%;
+  }
+
+  #contact{
+    color:white;
+    font-family: 'Bebas Neue';
+    display: flex;
+    justify-content: center;
+    margin-bottom:4%;
+    font-size:200%;
+    text-decoration:underline;
   }
 
 @media screen and (max-width:942px){
