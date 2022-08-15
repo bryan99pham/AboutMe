@@ -89,11 +89,36 @@ p{
     margin-bottom: 5%;
 }
 
+.pic{
+    width:70%;
+    margin-left:14%;
+    margin-bottom:0%;
+    border:solid white;
+    box-shadow: 0px 5px 8px black;
+}
+
+#buylink{
+    margin-top: 0%;
+    border:solid;
+    padding:2%;
+    box-shadow: 0px 5px 8px blue;
+}
+
+#buylink:hover{
+    background-color: blue;
+    box-shadow:8px 8px 3px black;
+}
+
+#disc{
+    margin-bottom:2%;
+    margin-top:2%;
+}
+
 @media screen and (max-width:1850px){
     #heading{
         flex-direction: column;
         margin-left:0px;
-        margin-bottom:0px;
+        margin-bottom: 3%;
     } 
 
     nav{
@@ -111,6 +136,7 @@ p{
     #home{
         font-size: 5vh;
         margin-bottom:0%;
+        margin-top:0%;
     }
 
     #bio{
