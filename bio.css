@@ -160,13 +160,15 @@ p{
     margin-left:8%;
     border:solid white;
     box-shadow: 5px 5px 5px white;
-    margin-top:7%;
+    margin-top:0%;
 }
 
 #popic{
     margin-left:10%;
     border:solid white;
     box-shadow: -5px 5px 10px blue;
+    margin-top:0%;
+
 }
 
 @media screen and (max-width:1850px){
